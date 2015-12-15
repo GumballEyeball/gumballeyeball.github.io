@@ -1,0 +1,108 @@
+<html>
+  <head>
+    <title>PISS-OFF!</title>
+    <style>
+      body {
+        background-image: url('pissoff-background.jpg');
+        background-color: black;
+        color: white;
+        font-family: sans-serif;
+        margin: 0;
+      }
+      h1 {
+        text-align: center;
+        font-size: 100px;
+        margin: 0;
+        color: yellow;
+      }
+      #top-banner {
+        text-align: center;
+        margin: 0;
+        padding: 0.5em;
+        line-height: 1.5;
+      }
+      #text-info {
+        margin: 1em;
+        padding: 1em;
+      }
+      #upcoming-shows ul {
+        margin-top: 0.1em;
+        margin-bottom: 0;
+      }
+      .yellow-text {
+        background-color: yellow;
+        color: black;
+        font-family: monospace;
+        font-size: 18px;
+      }
+      .yellow-text span {
+        margin: 2em;
+      }
+      .yellow-text a {
+        color: black;
+        text-decoration: none;
+      }
+      .yellow-text a:hover {
+        text-decoration: underline;
+      }
+      .video-container {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 60%;
+      }
+      .video-container .video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      /* mobile or narrow screens */
+      @media (max-width: 599px) {
+        #soundcloud-tracks iframe {
+          width: 100%;
+        }
+      }
+      /* larger screens */
+      @media (min-width: 600px) {
+        #soundcloud-tracks iframe {
+          width: 50%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>PISS-OFF!</h1>
+    <div id="top-banner" class="yellow-text">
+      <div>
+        <!--<span><a href="https://www.facebook.com/events/448274842035174/">Next show: 12/12 at Tarot Society</a></span>-->
+        <span><a href="http://soundcloud.com/pissofffool">Hear us at soundcloud.com/pissofffool</a></span>
+      </div>
+      <div>
+        <span><a href="mailto:pissoffbrooklyn@gmail.com">Contact us at pissoffbrooklyn@gmail.com</a></span></span>
+      </div>
+    </div>
+
+    <div class="video-container">
+      <iframe src="http://www.youtube.com/embed/_EwrmOdNW3c" frameborder="0" allowfullscreen class="video"></iframe>
+    </div>
+
+  <!--
+    <div id="text-info" class="yellow-text">
+      <div id="upcoming-shows">
+        Upcoming shows!
+        <ul>
+          <li><a href="https://www.facebook.com/events/448274842035174/">12/12 at Tarot Society, w/ The Veldt, Jarvis Earnshaw, Kate Mohanty, Decrepit Jaw & Forrest Gray</a></li>
+        </ul>
+      </div>
+    </div>
+  -->
+
+    <div id="soundcloud-tracks">
+      <iframe height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/236789680&amp;auto_play=false&amp;hide_related=true&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe><iframe height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/236789833&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+      <iframe height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/236789532&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe><iframe height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/236789984&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+    </div>
+  </body>
+</html>
